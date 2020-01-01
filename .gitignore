@@ -13,3 +13,7 @@ roles
 
 # Session
 Session.vim
+
+# Git secret
+.gitsecret/keys/random_seed
+!*.secret
