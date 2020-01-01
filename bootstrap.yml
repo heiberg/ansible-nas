@@ -1,0 +1,13 @@
+---
+- hosts: all
+
+  roles:
+    - name: brianhartsock.avahi
+      become: true
+
+  tasks:
+    - name: "Install zfs-utils"
+      apt:
+        name: zfsutils-linux
+        state: latest
+        update-cache: yes
