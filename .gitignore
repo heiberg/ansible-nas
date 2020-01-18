@@ -14,3 +14,5 @@ Session.vim
 # Git secret
 .gitsecret/keys/random_seed
 !*.secret
+inventories/nas/group_vars/nas.yml
+inventories/nas/inventory
